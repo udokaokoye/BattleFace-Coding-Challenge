@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: #202020;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.messageBox {
+  margin-bottom: 20px;
+  color: green;
+  font-weight: bolder;
+}
+
+.quotationForm {
+  width: 30%;
+  height: 70%;
+  background-color: white;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.quotationForm h1 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.quotationForm input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid black;
+  margin: 15px 0;
+  width: 50%;
+  height: 50px;
+}
+
+.quotationForm input:focus {
+  outline: none;
+}
+
+.quotationForm span {
+  margin-bottom: 20px;
+}
+
+.quotationForm small {
+  font-size: 12px;
+  color: #5009f5;
+}
+
+.quotationForm select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid black;
+  margin: 15px 0;
+  width: 50%;
+  height: 50px;
+}
+
+.quotationForm select:focus {
+  outline: none;
+}
+
+.quotationForm .label:first-child {
+  margin-top: 20px;
+}
+
+.quotationForm button {
+  padding: 15px 55px;
+  background-color: #202020;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

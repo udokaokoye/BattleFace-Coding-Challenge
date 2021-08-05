@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+.container {
+    background-color: #202020;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.messageBox {
+    margin-bottom: 20px;
+    color: green;
+    font-weight: bolder;
+}
+
+.quotationForm {
+    width: 30%;
+    height: 70%;
+    background-color: white;
+    border-radius: 15px;
+
+    h1 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    input {
+       padding: 10px;
+        border-radius: 8px;
+        border: 1px solid black;
+        margin: 15px 0;
+        width: 50%;
+        height: 50px;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    span {
+        margin-bottom: 20px;
+    }
+
+    small {
+        font-size: 12px;
+        color: rgb(80, 9, 245);
+    }
+
+    select {
+        padding: 10px;
+        border-radius: 8px;
+        border: 1px solid black;
+        margin: 15px 0;
+        width: 50%;
+        height: 50px;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .label:first-child {
+        margin-top: 20px;
+    }
+
+    button {
+        padding: 15px 55px;
+        background-color: #202020;
+        border: 1px solid white;
+        color: white;
+        cursor: pointer;
+    }
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+}
